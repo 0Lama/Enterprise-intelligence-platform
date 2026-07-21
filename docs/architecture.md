@@ -1,6 +1,7 @@
 # Enterprise Intelligence Platform Architecture
 
 ```mermaid
+flowchart TB
     U[Enterprise Users]
 
     subgraph FE[Frontend Layer]
