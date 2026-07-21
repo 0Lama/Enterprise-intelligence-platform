@@ -1,6 +1,6 @@
 # Enterprise Intelligence Platform Architecture
-flowchart TB
 
+```mermaid
     U[Enterprise Users]
 
     subgraph FE[Frontend Layer]
@@ -109,3 +109,4 @@ flowchart TB
     LOGS --> GATEWAY
     LOGS --> AI
     CICD --> DOCKER
+    ```
